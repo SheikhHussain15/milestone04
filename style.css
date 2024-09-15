@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg');
+    background-color: rgba(0, 0, 33, 1);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    opacity: 90%;
+    z-index: -1;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 61px;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+    color: rgb(3, 61, 11);
+    -webkit-text-stroke: 0.5px rgb(255, 253, 253);
+    opacity: 100%;
+  }
+
+  .form-container{
+    max-width: 900px;
+    background-color: rgb(216, 255, 255);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container:hover{
+    max-width: 980px;
+    opacity: 90%;
+    border-radius: 8px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container:active{
+
+    box-shadow: 0 15px 20px rgb(62, 64, 65);
+    opacity: 90%;
+  }
+
+  fieldset{
+    border: 3px solid #3265b1;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(237, 243, 245) ;
+    opacity: 90%;
+  }
+
+  legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(3, 70, 8);
+    font-size: 25px;
+    padding: 2px;
+    background-color: rgb(227, 238, 248);
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: rgb(18, 30, 44);
+    font-weight: bold;    
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #6da580;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button{
+    display: block;
+    text-decoration:underline ;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: #02486b;
+    color: #f3fafc;
+    border: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    border: 3px solid #6da580;
+    border-radius: 4px;
+    border-radius: 999px;
+}
+  
+  #resumePreview {
+    background-color: #e9fbff;
+    padding: 20px;
+    border: 1px solid hsl(131, 8%, 28%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  
+  .resume-container {
+    background-color: rgb(216, 255, 255);
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 2px solid #02486b;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .resume-container:hover{
+    max-width: 980px;
+    opacity: 90%;
+    border: 3px solid rgb(29, 61, 22);
+    border-radius: 8px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .resume-container h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+  }
